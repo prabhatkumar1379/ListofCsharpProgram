@@ -1,19 +1,16 @@
 ﻿// Online C# Editor for free
 // Write, Edit and Run your C# code using C# Online Compiler
 
+using ListOfProgram;
 using System;
 using System.Collections.Generic;
 
-public class Program
+public class Program 
 {
     public static void Main(string[] args)
     {
-        Console.WriteLine("Try programiz.pro");
-        string res = GetUniqueCharacter("hello there");
-        Console.WriteLine("------------");
-        Countcharacter(res);
-        Console.WriteLine("------------");
-        Countcharacter("hello there");
+        CallingMethod.GetCallAllListOfProgram();
+        Console.ReadLine();
 
     }
     public static string GetUniqueCharacter(string str)
