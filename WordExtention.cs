@@ -24,7 +24,7 @@ namespace ListOfProgram
 
         public static int wordcount(this String value)
         {
-            var count = value.Split(' ').Count();
+            var count = value.Split(' ').Count();// it will split the word with ' ' and count 
             return count;
 
         }
