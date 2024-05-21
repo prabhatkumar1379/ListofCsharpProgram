@@ -37,6 +37,10 @@ namespace ListOfProgram
             int len = text.MyExtention();
             Console.WriteLine(len);
             Console.WriteLine("---------------extensition methods end");
+            Console.WriteLine("----find the word of maxlength form string ");
+          int maxres=  Listprogram.GetMaxLenthWord("Hello prabhat how are you whatsapp");
+            Console.WriteLine(maxres);
+            Console.WriteLine("----find the word of maxlength form string ");
             //    double sqrtresult= Math.Sqrt(32);
             //   Console.WriteLine("Sqrt of pridefined function :{0}", sqrtresult);
 

@@ -137,5 +137,22 @@ namespace ListOfProgram
             a = a - b;//
             Console.WriteLine(" After swap a:{0},b :{1}", a, b);
         }
+        //w.a.p to get highest length of word in string 
+        public static int GetMaxLenthWord(string str)
+        {
+            if (string.IsNullOrWhiteSpace(str))
+                return 0;
+
+            string[] words = str.Split(' ');
+
+            int maxLength = 0;
+            foreach(var word in words)
+            {
+                if(word.Length > maxLength) 
+                    maxLength = word.Length;
+            }
+            return maxLength;
+        }
+
     }
 }
