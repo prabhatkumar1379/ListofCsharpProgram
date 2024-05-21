@@ -26,6 +26,17 @@ namespace ListOfProgram
             int[] myarr = { 12, 13, 56, 45, 67, 99, 98 };
             Console.WriteLine(Listprogram.GetLargestNu(myarr));
             Console.WriteLine("---------------------");
+            Console.WriteLine("Reverse string start");
+            Listprogram.ReverseString("Hello How are you");
+            Console.WriteLine();
+            Console.WriteLine("Reverse string end");
+            Listprogram.Swap(10, 5);
+            Listprogram.Swap1(10, 5);
+            Console.WriteLine("---------------extension method start ");
+            string text = "Hello, world! Welcome to the C# extension methods tutorial.";
+            int len = text.MyExtention();
+            Console.WriteLine(len);
+            Console.WriteLine("---------------extensition methods end");
             //    double sqrtresult= Math.Sqrt(32);
             //   Console.WriteLine("Sqrt of pridefined function :{0}", sqrtresult);
 
