@@ -1,0 +1,15 @@
+C:\Users\prabhat.kumar\MyProject\2024\ListofCsharpProgram\bin\Debug\net6.0\ListOfProgram.exe
+C:\Users\prabhat.kumar\MyProject\2024\ListofCsharpProgram\bin\Debug\net6.0\ListOfProgram.deps.json
+C:\Users\prabhat.kumar\MyProject\2024\ListofCsharpProgram\bin\Debug\net6.0\ListOfProgram.runtimeconfig.json
+C:\Users\prabhat.kumar\MyProject\2024\ListofCsharpProgram\bin\Debug\net6.0\ListOfProgram.dll
+C:\Users\prabhat.kumar\MyProject\2024\ListofCsharpProgram\bin\Debug\net6.0\ListOfProgram.pdb
+C:\Users\prabhat.kumar\MyProject\2024\ListofCsharpProgram\obj\Debug\net6.0\ListOfProgram.csproj.AssemblyReference.cache
+C:\Users\prabhat.kumar\MyProject\2024\ListofCsharpProgram\obj\Debug\net6.0\ListOfProgram.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\prabhat.kumar\MyProject\2024\ListofCsharpProgram\obj\Debug\net6.0\ListOfProgram.AssemblyInfoInputs.cache
+C:\Users\prabhat.kumar\MyProject\2024\ListofCsharpProgram\obj\Debug\net6.0\ListOfProgram.AssemblyInfo.cs
+C:\Users\prabhat.kumar\MyProject\2024\ListofCsharpProgram\obj\Debug\net6.0\ListOfProgram.csproj.CoreCompileInputs.cache
+C:\Users\prabhat.kumar\MyProject\2024\ListofCsharpProgram\obj\Debug\net6.0\ListOfProgram.dll
+C:\Users\prabhat.kumar\MyProject\2024\ListofCsharpProgram\obj\Debug\net6.0\refint\ListOfProgram.dll
+C:\Users\prabhat.kumar\MyProject\2024\ListofCsharpProgram\obj\Debug\net6.0\ListOfProgram.pdb
+C:\Users\prabhat.kumar\MyProject\2024\ListofCsharpProgram\obj\Debug\net6.0\ListOfProgram.genruntimeconfig.cache
+C:\Users\prabhat.kumar\MyProject\2024\ListofCsharpProgram\obj\Debug\net6.0\ref\ListOfProgram.dll

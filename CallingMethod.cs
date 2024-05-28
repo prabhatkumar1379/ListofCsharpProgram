@@ -57,6 +57,8 @@ namespace ListOfProgram
             //   Countcharacter(res);
             //   Console.WriteLine("------------");
             //   Countcharacter("hello there");
+            var Getinstance = Singleton.Instance;
+            Console.WriteLine("instance of Singleton :{0}",Getinstance);
         }
     }
 }
