@@ -1,4 +1,4 @@
-﻿using System;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -153,7 +153,20 @@ namespace ListOfProgram
             }
             return maxLength;
         }
-        //
+        //Fibonacci Series Program in C# with Examples
+        public static void GetFibonacci (int num)
+        {
+            int num1 = 0, num2 = 1, nextnu;
+            Console.Write(num1 +" " +num2);
+            for(int i = 2; i < num; i++)
+            {
+                nextnu = num1 + num2;
+                Console.Write(" "+nextnu);
+                num1 = num2;
+                num2= nextnu;
+            }
+            Console.WriteLine();
+        }
 
     }
 }
