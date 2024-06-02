@@ -18,6 +18,7 @@ namespace ListOfProgram
             return result;
         }
 
+        
         public static double GetSquare(double number)
         {
             if(number < 0)
