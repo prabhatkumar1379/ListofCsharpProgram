@@ -3,6 +3,7 @@ https://www.sanfoundry.com/csharp-programming-examples/
 1> W.a.p to get n number of y power.
  2> C# Program to Check Whether a Given Number is Even or Odd
  3>Singleton class ?
+ 4> difference betwwen interface & abstract class ?
 
  Implementing a Singleton Pattern
 The Singleton is a design pattern that restricts the instantiation of a class to a single instance and provides a global point
