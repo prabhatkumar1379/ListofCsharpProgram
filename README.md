@@ -9,7 +9,7 @@ example
 | abcd    | b ✔ 
 | abcd    | c ✔  
 | abcd    | d ✔    
-Finaloutput will be : | abcd
+Final output will be : | abcd
 ```
 using System;
 
