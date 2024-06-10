@@ -1,10 +1,6 @@
 ## w.a.p to print first char from string string and 2nd char from 2nd string and so on using c#
 
 example 
-abcd -->a
-abcd -->b
-abcd -->c
-abcd -->d
 | Input   | output    
 | --------| ------- 
 | abcd    | a ✔  
