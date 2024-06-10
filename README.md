@@ -26,7 +26,43 @@ public class HelloWorld
       Console.ReadLine();
     }
 }
- 
+
+```
+
+<h3>1) Write a C# program to determine if an array contains any duplicate values or not  using c#</h3>
+
+```
+using System;
+
+public class HelloWorld
+{
+    public static void Main(string[] args)
+    {
+        int [] arr={1,2,3,4,5,4,5};
+        bool isduplicate =false;
+        for(int i=0; i<arr.Length; i++)
+        {
+            for(int j=i+1; j<arr.Length; j++)
+            {
+                if(arr[i]==arr[j])
+                {
+                    //Console.WriteLine(arr[i] +" :" +arr[j]);
+                    isduplicate = true;
+                }
+            }
+        }
+        if(isduplicate)
+        {
+            Console.WriteLine("Array contain Duplicate value");
+        }
+        else
+        {
+        Console.WriteLine("Array Doesn't contain Duplicate value");
+        }
+        Console.ReadLine();
+    }
+}
+```
 
 
 <!--
