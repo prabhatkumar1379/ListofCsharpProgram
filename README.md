@@ -31,7 +31,7 @@ public class HelloWorld
 
 ```
 
-<h3>2. Write a C# program to determine if an array contains any duplicate values or not  using c#?</h3>
+<h3>2. Write a C# program to determine if an array contains any duplicate number or not  using c#?</h3>
 
 ```
 using System;
@@ -67,6 +67,81 @@ public class HelloWorld
 ```
 
 
+
+<h3>2.1 Write a C# program to determine if an array contains any duplicate Character or not  using c#?</h3>
+
+```
+ 
+using System;
+
+public class HelloWorld
+{
+    public static void Main(string[] args)
+    {
+        string duplicate =string.Empty;
+        char [] arr={'A','B','C','D','A','B'};
+        bool isduplicate =false;
+        for(int i=0; i<arr.Length; i++)
+        {
+            for(int j=i+1; j<arr.Length; j++)
+            {
+                if(arr[i]==arr[j])
+                {
+                    duplicate +=arr[i] +",";
+                    //Console.WriteLine(arr[i] +" :" +arr[j]);
+                    isduplicate = true;
+                }
+            }
+        }
+        if(isduplicate)
+        {
+            Console.WriteLine("Array contain Duplicate value ={0}",duplicate);
+        }
+        else
+        {
+        Console.WriteLine("Array Doesn't contain Duplicate value");
+        }
+        Console.ReadLine();
+    }
+}
+```
+
+<h3>2.2 Write a C# program to determine if an array contains any duplicate string or not  using c#?</h3>
+
+```
+using System;
+
+public class HelloWorld
+{
+    public static void Main(string[] args)
+    {
+        string duplicate =string.Empty;
+        string [] arr={"HI","Hello","HI"};
+        bool isduplicate =false;
+        for(int i=0; i<arr.Length; i++)
+        {
+            for(int j=i+1; j<arr.Length; j++)
+            {
+                if(arr[i]==arr[j])
+                {
+                    duplicate +=arr[i] +",";
+                    //Console.WriteLine(arr[i] +" :" +arr[j]);
+                    isduplicate = true;
+                }
+            }
+        }
+        if(isduplicate)
+        {
+            Console.WriteLine("Array contain Duplicate value ={0}",duplicate);
+        }
+        else
+        {
+        Console.WriteLine("Array Doesn't contain Duplicate value");
+        }
+        Console.ReadLine();
+    }
+}
+```
 <!--
 
 This File contain List of C# program.
