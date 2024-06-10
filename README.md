@@ -1,4 +1,4 @@
-<h3>1) w.a.p to print first char from string string and 2nd char from 2nd string and so on using c#</h3>
+<h3><h1>1</h1>) w.a.p to print first char from string string and 2nd char from 2nd string and so on using c#</h3>
 
 example 
 | Input   | output    
@@ -29,7 +29,7 @@ public class HelloWorld
 
 ```
 
-<h3>1) Write a C# program to determine if an array contains any duplicate values or not  using c#</h3>
+<h3><h1>2</h1>) Write a C# program to determine if an array contains any duplicate values or not  using c#</h3>
 
 ```
 using System;
