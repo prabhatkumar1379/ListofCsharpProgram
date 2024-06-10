@@ -1,3 +1,14 @@
+## w.a.p to print first char from string string and 2nd char from 2nd string and so on using c#
+example 
+abcd -->a
+abcd -->b
+abcd -->c
+abcd -->d
+output will be :abcd
+
+
+<!--
+
 This File contain List of C# program.
 https://www.sanfoundry.com/csharp-programming-examples/
 1> W.a.p to get n number of y power.
@@ -28,3 +39,4 @@ If the Singleton instance already exists, the existing instance is returned.
 
 This question checks your understanding of object-oriented programming, specifically Singleton design pattern. Singleton is one of the 
 Gang of Four design patterns and is categorized under creational design patterns as it deals with object creation mechanisms.
+-->
