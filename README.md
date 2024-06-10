@@ -1,4 +1,4 @@
-## w.a.p to print first char from string string and 2nd char from 2nd string and so on using c#
+1) w.a.p to print first char from string string and 2nd char from 2nd string and so on using c#
 
 example 
 | Input   | output    
