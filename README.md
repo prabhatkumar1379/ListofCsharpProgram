@@ -1,5 +1,5 @@
 <div>
-  <h1>1.</h1> <h3>w.a.p to print first char from string string and 2nd char from 2nd string and so on using c#?</h3>
+  <h3>1.  <h3>w.a.p to print first char from string string and 2nd char from 2nd string and so on using c#?</h3>
 </div>
 
 example 
