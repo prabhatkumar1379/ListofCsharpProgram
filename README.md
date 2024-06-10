@@ -11,7 +11,7 @@ abcd -->d
 | abcd    | b ✔ 
 | abcd    | c ✔  
 | abcd    | d ✔    
-output will be :abcd
+Finaloutput will be :abcd
 ```
 using System;
 
