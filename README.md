@@ -162,7 +162,6 @@ application, and this instance should be accessible globally.
 Explanation:
 
 The Singleton class is defined as sealed to prevent derivation, which could add instances.
-
 A private, read-only padlock object is defined. This is used for thread synchronization to ensure that only one thread can enter the
 lock code block at a time. This is important because, without thread safety, two threads could create two separate instances of the 
 Singleton class.
