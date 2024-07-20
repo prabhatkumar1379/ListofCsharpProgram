@@ -142,6 +142,13 @@ public class HelloWorld
     }
 }
 ```
+
+<h3>3 Write a to swap two variable without using third varible and data can be any type it can be strin ,int etc,  using c#?</h3>
+
+```
+
+```
+
 <!--
 
 This File contain List of C# program.
