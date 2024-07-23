@@ -145,6 +145,10 @@ public class HelloWorld
 
 <h3>3 Write a to swap two variable without using third varible and data can be any type it can be strin ,int etc,  using c#?</h3>
 
+```
+comming soon . . .
+```
+
 
 <h3>4. input is an int array(elements non-zero), output is a new int array</h3>
 <p>b. Example: if input array A = {2, 1, 5, 9}, then output array B would be {45, 90, 18, 10}</p>
