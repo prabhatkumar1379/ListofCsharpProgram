@@ -147,8 +147,8 @@ public class HelloWorld
 
 
 <h3>4. input is an int array(elements non-zero), output is a new int array</h3>
-<h3>b. Example: if input array A = {2, 1, 5, 9}, then output array B would be {45, 90, 18, 10}</h3>
-<h3>c. clue: B[0]=A[1]*A[2]*A[3], B[1]=A[0]*A[2]*A[3], B[2]=A[0]*A[1]*A[3], B[3]=A[0]*A[1]*A[2]</h3>
+<p>b. Example: if input array A = {2, 1, 5, 9}, then output array B would be {45, 90, 18, 10}</p>
+<p>c. clue: B[0]=A[1]*A[2]*A[3], B[1]=A[0]*A[2]*A[3], B[2]=A[0]*A[1]*A[3], B[3]=A[0]*A[1]*A[2]</p>
 
 Answer
 <p>To solve the problem, the function initializes an output array b of the same length as the input array a.
@@ -185,9 +185,6 @@ Answer
 ```
 
 
-```
-
-```
 
 <!--
 
