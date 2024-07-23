@@ -145,6 +145,48 @@ public class HelloWorld
 
 <h3>3 Write a to swap two variable without using third varible and data can be any type it can be strin ,int etc,  using c#?</h3>
 
+
+<h3>4. input is an int array(elements non-zero), output is a new int array</h3>
+<h3>b. Example: if input array A = {2, 1, 5, 9}, then output array B would be {45, 90, 18, 10}</h3>
+<h3>c. clue: B[0]=A[1]*A[2]*A[3], B[1]=A[0]*A[2]*A[3], B[2]=A[0]*A[1]*A[3], B[3]=A[0]*A[1]*A[2]</h3>
+
+Answer
+<p>To solve the problem, the function initializes an output array b of the same length as the input array a.
+ For each index i in the input array, it calculates the product of all elements except the one at index i.
+ This is achieved by iterating through the input array and multiplying all elements except the current one.
+ The result is stored in the corresponding index of the output array b
+ </p>
+```
+
+     int[] a = { 2, 1, 5, 9 };
+            int[] b = Program.GetProductOfA(a);
+            foreach(int val in b)
+            {
+                Console.Write(val + " ");
+            }
+ 
+ //method
+        public static int[] GetProductOfA(int[] a)
+        {
+            int[] b= new int[a.Length];
+            for(int i=0; i<a.Length;i++)
+            {
+                int product = 1;
+                for(int j=0;j<a.Length; j++)
+                {
+                    if(i !=j)
+                    {
+                        product *= a[j];
+                    }
+                }
+                b[i] = product;
+            }
+            return b;
+        }
+        
+```
+
+
 ```
 
 ```
