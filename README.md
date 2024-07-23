@@ -156,16 +156,14 @@ Answer
  This is achieved by iterating through the input array and multiplying all elements except the current one.
  The result is stored in the corresponding index of the output array b
  </p>
+ 
 ```
-
      int[] a = { 2, 1, 5, 9 };
             int[] b = Program.GetProductOfA(a);
             foreach(int val in b)
             {
                 Console.Write(val + " ");
             }
- 
- //method
         public static int[] GetProductOfA(int[] a)
         {
             int[] b= new int[a.Length];
