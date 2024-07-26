@@ -188,6 +188,45 @@ Answer
         
 ```
 
+<h3>First Unique Character in a String</h3>
+<p></p>Given a string s, find the first non-repeating character in it and return its index. If it does not exist, return -1.</p>
+<p>Example 1:</p>
+<p>Input: s = "leetcode"</p>
+<p>Output: 0</p>
+<p>Example 2:</p>
+<p>Input: s = "loveleetcode"</p>
+<p>Output: 2</p>
+<p>Example 3:</p>
+<p>Input: s = "aabb"</p>
+<p>Output: -1</p>
+
+```
+public static int FirstUniqChar(string str)
+        {
+            Dictionary<char, int> dicCharCount = new Dictionary<char, int>();
+            foreach (var item in str)
+            {
+                if(!dicCharCount.ContainsKey(item))
+                {
+                    dicCharCount[item]++;
+                }
+                else
+                {
+                    dicCharCount[item] = 1;
+                }
+            }
+            for(int i=0;i<str.Length; i++)
+            {
+                if (dicCharCount[str[i]] ==1)
+                {
+                    return i;
+                }
+            }
+            return -1;
+        }
+
+```
+
 
 
 <!--
