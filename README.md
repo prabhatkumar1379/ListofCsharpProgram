@@ -188,7 +188,7 @@ Answer
         
 ```
 
-<h3>First Unique Character in a String</h3>
+<h3>5.First Unique Character in a String</h3>
 <p></p>Given a string s, find the first non-repeating character in it and return its index. If it does not exist, return -1.</p>
 <p>Example 1:</p>
 <p>Input: s = "leetcode"</p>
