@@ -227,7 +227,9 @@ public static int FirstUniqChar(string str)
 
 ```
 
-<h3>6.</h3>
+<h3>6.Fibonaci</h3>
+
+<h3>7.Factorial</h3>
 
 <!--
 
