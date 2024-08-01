@@ -229,6 +229,25 @@ public static int FirstUniqChar(string str)
 
 <h3>6.Fibonaci</h3>
 
+```
+ public static void Main(string[] args)
+        {
+            Console.WriteLine("Fibonaci");
+            int num1 = 0;
+            int num2 = 1;
+            Console.Write(num1 +" "+num2);
+            for (int i = 1; i < 10; i++)
+            {
+                int fib = num1 + num2;
+                Console.Write(" "+fib);
+                num1 = num2;
+                num2= fib;
+            }
+            Console.ReadLine();
+        }
+```
+
+
 <h3>7.Factorial</h3>
 
 <!--
