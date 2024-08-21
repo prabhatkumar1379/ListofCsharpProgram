@@ -256,7 +256,7 @@ Fibonaci
 <h3>8.Sum of Nutural number</h3>
 
 ```
-Example 1
+input :9 =>> output :45
      public static long Sumofn(int n)
         {
             return n * (n + 1) / 2;
@@ -264,6 +264,7 @@ Example 1
 ```
 
 ```
+input :9 =>> output :45
  public static long SumofNo(int n)
         {
             long sum = 0;
