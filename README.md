@@ -253,6 +253,17 @@ Fibonaci
 
 
 <h3>7.Factorial</h3>
+<h3>8.Sum of Nutural number</h3>
+
+```
+Example 1
+ public static long Sumofn(int n)
+        {
+            return n * (n + 1) / 2;
+        }
+```
+
+
 
 <!--
 
