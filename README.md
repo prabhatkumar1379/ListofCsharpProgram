@@ -257,13 +257,23 @@ Fibonaci
 
 ```
 Example 1
- public static long Sumofn(int n)
+     public static long Sumofn(int n)
         {
             return n * (n + 1) / 2;
         }
 ```
 
-
+```
+ public static long SumofNo(int n)
+        {
+            long sum = 0;
+            for(int i=1;i<=n;i++)
+            {
+                sum += i;
+            }
+            return sum;
+        }
+```
 
 <!--
 
