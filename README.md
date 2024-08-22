@@ -146,7 +146,23 @@ public class HelloWorld
 <h3>3 Write a to swap two variable without using third varible and data can be any type it can be strin ,int etc,  using c#?</h3>
 
 ```
-comming soon . . .
+
+ Console.WriteLine("--------------Swap--");
+            int a = 10;
+            int b = 20;
+            Console.WriteLine("before swap a={0},b={1}",a,b);
+            ReverseArray.Swap(ref a,ref b);
+            Console.WriteLine("After swap a={0},b={1}", a, b);
+OUTPUT
+--------------Swap--
+before swap a=10,b=20
+After swap a=20,b=10
+
+  public static void  Swap<T>(ref T a, ref T b)
+        {
+            (a,b) =(b,a);
+        }
+
 ```
 
 
