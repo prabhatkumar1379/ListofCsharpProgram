@@ -292,7 +292,7 @@ input :9 =>> output :45
             return sum;
         }
 ```
-<h3>ow to Count Character Occurrences in a String Using C#</h3>
+<h3>How to Count Character Occurrences in a String Using C#</h3>
 
 ```
 
@@ -322,6 +322,16 @@ public class HelloWorld
          }
     }
 }
+
+OutPut
+
+key : A, values : 4
+key : B, values : 2
+key : C, values : 2
+key : d, values : 1
+key : e, values : 1
+key : f, values : 1
+key : a, values : 1
 
 ```
 
