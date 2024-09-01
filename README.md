@@ -279,6 +279,7 @@ input :9 =>> output :45
         }
 ```
 
+
 ```
 input :9 =>> output :45
  public static long SumofNo(int n)
@@ -290,6 +291,38 @@ input :9 =>> output :45
             }
             return sum;
         }
+```
+<h3>ow to Count Character Occurrences in a String Using C#</h3>
+
+```
+
+using System;
+using System.Collections.Generic;
+
+public class HelloWorld
+{
+    public static void Main(string[] args)
+    {
+         string str = "ABCABCAdefAa";
+         Dictionary<char,int> map = new Dictionary<char,int>();
+         for(int i = 0; i <= str.Length -1 ; i++)
+         {
+             if(!map.ContainsKey(str[i]))
+             {
+                 map.Add(str[i], 1);
+             }
+             else
+             {
+                 map[str[i]]++;
+             }
+         }
+         foreach(var v in map)
+         {
+             Console.WriteLine("key : {0}, values : {1}",v.Key,v.Value);
+         }
+    }
+}
+
 ```
 
 <!--
